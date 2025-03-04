@@ -1,0 +1,45 @@
+BODY{
+    text-align: center;
+}
+#top{
+    height: 100px;
+    width: 400px;
+    background:#ff9933 ;
+}
+#down{
+    width: 400px;
+    height: 100px;
+    background: #138808;
+}
+#mid{
+    width: 400px;
+    height: 100px;
+   background: white;
+}
+#ashokchakra img{
+width: 100px;
+height: 100px;
+}
+#ashokchakra{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main{
+    border: 2px solid rgb(141, 45, 45) ;
+    width: 400px;
+
+}
+#stick{
+    width: 0.5%;
+    height: 600px;
+    background-color: rgb(114, 113, 106);
+    padding-left:30px ;
+}
+#man{ 
+ padding-left: 90px;
+    margin: 30px 0;
+    position: absolute;
+    top: 100px;
+    left: 400px;
+}

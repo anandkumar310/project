@@ -1,0 +1,220 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.sidebar{
+    background-color: rgb(168, 165, 165);
+    position: absolute;
+    display:flex;  
+    width: 10vm;
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size:2.3em ;
+    padding: 33px 0;
+    display: flex;
+    font-family: sans-serif;
+}
+.sidebar nav a{
+    text-decoration: none;
+    color: black;
+}
+.sidebar nav{
+    padding: 45px;
+
+}
+.main{
+   // background-color: yellow;
+    width: 80vw;
+}
+.container{
+    display: flex;
+
+}
+.info-container{
+   // background-color: rgb(220, 61, 186);
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content:space-around;
+}
+.devinfo{
+    display: flex;
+    margin-top: 150px;
+    flex-direction: column;
+    justify-content: center;
+}
+.hello{
+    font-size: 3em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.name{
+    font-size: 3em;
+    font-weight: bold;
+}
+.about{
+    font-size: 2.2em;
+    margin-top: 10px;
+}
+.aboutmore{
+    margin-top: 24px;
+    font-size: 1.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.buttons{
+    margin-top: 34px;
+}
+.buttons button{
+    color: white;
+    padding: 9px 14px;
+    border-radius: 22px;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 2.1em;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    color: dodgerblue;
+    background-color: white;
+}
+.divpic{
+    height: 58vh;
+    display: flex;
+
+}
+.contactform{
+    padding-top: 144px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0 34px ;
+    margin-top: 0 88px;
+    margin-left: 100px;
+}
+
+.contactform h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 12px 0;
+    margin-top: 100px;
+}
+.contactform  form div{
+    padding:10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform  form div input{
+   width: 16vw;
+   border-radius: 5px;
+   margin: 6px 0;
+   padding: 3px;
+}
+#emailHelp{
+    font-size: 1.1em;
+    color: blue;
+    margin: 0 50px;
+    padding: 3px 0 0;
+}
+#form-check {
+    flex-direction:row;
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+.buttons{
+    margin-top: 34px;
+}
+.btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: aqua;
+    font-size: 21px;
+    font-weight: bold;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    color: aqua;
+}
+.blogitem{
+    margin: 20px;
+}
+h2 h1{
+    font-family: serif;
+    margin: 23px;
+}
+p{
+    font-family: sans-serif;
+    color: rgb(45, 54, 62);
+}
+.list{
+    margin: 20px ;
+    color:blue;
+    justify-content: center;
+    flex-direction: column;
+}
+.skillcontainer{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+#skill1{
+    width: 265px;
+    height: 10px;
+    background-color: rgb(36, 59, 34);
+}
+#skill2{
+    width: 165px;
+    height: 10px;
+    background-color: rgb(34, 45, 59);
+}
+#skill3{
+    width: 225px;
+    height: 10px;
+    background-color: rgb(4, 75, 49);
+}
+#skill4{
+    width: 205px;
+    height: 10px;
+    background-color: rgb(34, 59, 50);
+}
+#skill5{
+    width: 265px;
+    height: 10px;
+    background-color: rgb(12, 39, 29);
+}
+#skill6{
+    width: 205px;
+    height: 10px;
+    background-color: rgb(59, 34, 39);
+}
+#skill7{
+    width: 165px;
+    height: 10px;
+    background-color: rgb(46, 59, 4);
+}
+.humburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+.cross{
+    margin-left: 165px;
+}
+.devpic{
+    display: none;
+}
+.blogcontainer{
+    margin-top: 50px;
+   
+}

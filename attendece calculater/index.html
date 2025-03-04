@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Logging page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="form-box">
+        <h1 class="title">Attendence Culculater for BCA Third Year</h1>
+
+        <form>
+          <div class="input-group">
+            <div class="input-field present">
+              <i class="fa-solid fa-p"></i>
+              <input
+                type="text"
+                placeholder="Enter Total Present of one Week... "
+                required
+              />
+            </div>
+
+            <div class="input-field Absent">
+              <i class="fa-solid fa-a"></i>
+              <input
+                type="text"
+                placeholder="Enter Total absent of one Week "
+                required
+              />
+            </div>
+
+            <div class="input-field Absent_weak">
+              <i class="fa-solid fa-a"></i>
+              <input
+                type="text"
+                placeholder="Enter how many class not attend by you"
+                required
+              />
+            </div>
+          </div>
+          <!--input group-->
+          <div class="btn-field">
+            <button type="button" class="signupbtn">submit</button>
+          </div>
+          <!--btn field-->
+          <p class="text">Total Present is 80%</p>
+        </form>
+      </div>
+      <!--end of form-->
+    </div>
+    <!--end of container-->
+  </body>
+  <script src="script.js"></script>
+</html>

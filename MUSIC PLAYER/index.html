@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>music player</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="music-player">
+            <nav>
+                <div class="circle">
+                    <i class="ri-arrow-left-s-line"></i>
+                </div>
+                <div class="circle">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </nav>
+            <img src="song.jpeg" class="song-img">
+            <h1>SAJNI RE</h1>
+            <p>Arjit Singh</p>
+            <audio id="song">
+                <source src="sajni.mp3" type="audio/mpeg">
+            </audio>
+            <input type="range" value="0" id="progress">
+            <div class="controls">
+                <div><i class="ri-rewind-fill"></i></div>
+                <div onclick="playPause()"><i class="ri-play-large-line" id="ctrlIcon"></i></div>
+                <div><i class="ri-speed-fill"></i></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
